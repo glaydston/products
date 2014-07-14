@@ -7,9 +7,7 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
 scalaVersion := "2.11.1"
 
 libraryDependencies ++= Seq(
-  jdbc,
-  anorm,
-  cache,
-  ws,
-  "net.sf.barcode4j" % "barcode4j" % "2.0"
+  "org.reactivemongo" % "play2-reactivemongo_2.10" % "0.10.2",
+  "org.reactivemongo" % "reactivemongo_2.10" % "0.10.0",
+  "net.sf.barcode4j" % "barcode4j" % "2.0",
 )
