@@ -1,7 +1,7 @@
 Products Catalog
 =====
 
-This repository is from ebook [Play for Scala]
+This repository is from e-book [Play for Scala]
 
 
 Config
