@@ -37,7 +37,7 @@ object Products extends Controller {
       hasErrors = { form =>
         Redirect(routes.Products.newProduct()).
           flashing(Flash(form.data) +
-            ("error" -> Messages("validation.error")))
+            ("error" -> Messages("validation.errors")))
       },
 
       success = { newProduct =>
